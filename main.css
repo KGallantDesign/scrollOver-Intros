@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(10, 200px);
+}
+
+.all{
+    width: 200px;
+    height: 200px;
+}
+.container div:nth-child(2) {
+    background-color: red;
+}
+.container div:nth-child(3) {
+    background-color: orange;
+}
+.container div:nth-child(4) {
+    background-color: yellow;;
+}
+.container div:nth-child(5) {
+    background-color: goldenrod;
+}
+.container div:nth-child(6) {
+    background-color: honeydew;
+}
+.container div:nth-child(7) {
+    background-color: indigo;
+}
+.container div:nth-child(8) {
+    background-color: yellow;
+}
+.container div:nth-child(9) {
+    background-color: forestgreen;
+}
+.container div:nth-child(10) {
+    background-color: turquoise;
+}
+.container div:nth-child(11) {
+    background-color: turquoise;
+}
+.container div:nth-child(12) {
+    background-color: turquoise;
+}
+.container div:nth-child(13) {
+    background-color: turquoise;
+}
+.container div:nth-child(14) {
+    background-color: turquoise;
+}
+.container div:nth-child(15) {
+    background-color: turquoise;
+}
+.container div:nth-child(16) {
+    background-color: turquoise;
+}
+button {
+    all: unset;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
